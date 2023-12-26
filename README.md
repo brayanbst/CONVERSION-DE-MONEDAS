@@ -23,7 +23,7 @@ json
 {
   "sourceCurrency": "USD",
   "targetCurrency": "PEN",
-  "newExchangeRate": 3.5
+  "exchangeRate": 3.5
 }
 Respuesta de éxito:
 json
