@@ -7,8 +7,9 @@ import { ClientsModule } from './clients/clients.module';
 import { AuthModule } from './auth/auth.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
-import { TypeormService } from './config/typeorm.service'; // Asegúrate de que la ruta sea correcta
+import { TypeormService } from './config/typeorm.service';
 import { CurrencyModule } from './currency/currency.module';
+import { MensajeModule } from './message/message.module';
 
 @Module({
   imports: [
@@ -22,7 +23,8 @@ import { CurrencyModule } from './currency/currency.module';
     CurrencyExchangeModule,
     UsersModule, 
     ClientsModule, 
-    AuthModule
+    AuthModule,
+    MensajeModule
   ],
   controllers: [AppController],
   providers: [AppService],
