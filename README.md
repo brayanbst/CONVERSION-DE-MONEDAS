@@ -32,7 +32,8 @@ Respuesta esperada:
 
 La respuesta es una matriz de objetos de mensaje que coinciden con los criterios especificados.
 Cada objeto incluye detalles como el ID del mensaje, el usuario, el estado de envío, la fecha y hora de envío, el contenido del mensaje, los detalles de la campaña y el estado activo.
-JSON
+
+
 [
     {
         "idMensaje": 2,
