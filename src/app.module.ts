@@ -10,6 +10,7 @@ import { ConfigModule } from '@nestjs/config';
 import { TypeormService } from './config/typeorm.service';
 import { CurrencyModule } from './currency/currency.module';
 import { MensajeModule } from './message/message.module';
+import { ManagersModule } from './manager/manager.module';
 
 @Module({
   imports: [
@@ -24,7 +25,8 @@ import { MensajeModule } from './message/message.module';
     UsersModule, 
     ClientsModule, 
     AuthModule,
-    MensajeModule
+    MensajeModule,
+    ManagersModule
   ],
   controllers: [AppController],
   providers: [AppService],
